@@ -13,6 +13,8 @@ public class PlayerHealth : MonoBehaviour
 
     [SerializeField]
     private GameObject deathEffect;
+    [SerializeField]
+    private GameObject healingEffect;
 
     // Start is called before the first frame update
     void Start()
@@ -56,6 +58,8 @@ public class PlayerHealth : MonoBehaviour
     {
         if (currentHealth < maxHealth && currentHealth > 0)
         {
+            //forse va distrutto dopo che viene istanziato l'effetto
+            Instantiate(healingEffect, gameObject.transform.localPosition, Quaternion.identity);
             currentHealth += health - ((currentHealth+health)%maxHealth);
         }
     }

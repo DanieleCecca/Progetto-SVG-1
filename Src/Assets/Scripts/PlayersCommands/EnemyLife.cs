@@ -12,6 +12,8 @@ public class EnemyLife : MonoBehaviour
 
     [SerializeField]
     private GameObject deathEffect;
+    [SerializeField]
+    private GameObject healingEffect;
 
     void Start()
     {
@@ -43,6 +45,8 @@ public class EnemyLife : MonoBehaviour
     {
         if (currentHealth < maxHealth && currentHealth > 0)
         {
+            //forse va distrutto dopo che viene istanziato l'effetto
+            Instantiate(healingEffect, gameObject.transform.localPosition, Quaternion.identity);
             currentHealth += health - ((currentHealth + health) % maxHealth);
         }
     }

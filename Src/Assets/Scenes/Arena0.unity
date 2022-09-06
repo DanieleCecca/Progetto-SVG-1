@@ -138,6 +138,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 2.177
       objectReference: {fileID: 0}
+    - target: {fileID: 221238526632183650, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 923093129649543026, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -219,13 +223,9 @@ PrefabInstance:
       value: Enemy 1
       objectReference: {fileID: 0}
     - target: {fileID: 6400983389195048726, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
-      propertyPath: bullet
+      propertyPath: carEngine
       value: 
-      objectReference: {fileID: 1554052670201816, guid: b2c0a35f02faa03469b1f6c34739dbb0, type: 3}
-    - target: {fileID: 6400983389195048726, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
-      propertyPath: dashEffect
-      value: 
-      objectReference: {fileID: 12485528}
+      objectReference: {fileID: 962993147}
     - target: {fileID: 6400983389195048727, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -266,13 +266,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 7983925284119198032, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
+      propertyPath: MaxDistance
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7983925284119198032, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
---- !u!1 &12485528 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6531875113451396676, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
-  m_PrefabInstance: {fileID: 12485527}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &12485529 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4596910834752082772, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
@@ -1704,6 +1707,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71a2d108d6f9bc74e97dca4a6e140aa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &962993147 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7983925284119198032, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
+  m_PrefabInstance: {fileID: 12485527}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -3070,10 +3078,6 @@ PrefabInstance:
       propertyPath: dashEffect
       value: 
       objectReference: {fileID: 1905525908}
-    - target: {fileID: 2158887811492415627, guid: 0035794a1a1f80c4284883059c98eb05, type: 3}
-      propertyPath: deathEffect
-      value: 
-      objectReference: {fileID: 1763152032527406, guid: 6fe6b7e23778dd54f9c1745fe241766f, type: 3}
     - target: {fileID: 2158887811492415629, guid: 0035794a1a1f80c4284883059c98eb05, type: 3}
       propertyPath: coinCounterEnemy
       value: 
@@ -3113,6 +3117,10 @@ PrefabInstance:
     - target: {fileID: 7875988478980396690, guid: 0035794a1a1f80c4284883059c98eb05, type: 3}
       propertyPath: m_Volume
       value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7875988478980396690, guid: 0035794a1a1f80c4284883059c98eb05, type: 3}
+      propertyPath: MaxDistance
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7992692957415581785, guid: 0035794a1a1f80c4284883059c98eb05, type: 3}
       propertyPath: m_RootOrder
@@ -4728,8 +4736,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 9174410322917657064, guid: 9565e4a6a45aa784382c2c5ea8d307bb, type: 3}
   spawnTime: 1
-  spawnRepeatRate: 5
-  limit: 20
+  spawnRepeatRate: 6
+  limit: 15
   arena: {fileID: 510188512}
 --- !u!1001 &8804921734971602382
 PrefabInstance:

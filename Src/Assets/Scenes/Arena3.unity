@@ -2659,7 +2659,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 7471038332504671938, guid: 542b5c6f861c9774ab6f3ee16517364e, type: 3}
   spawnTime: 1
-  spawnRepeatRate: 5
+  spawnRepeatRate: 10
   limit: 5
   arena: {fileID: 2021646376}
 --- !u!114 &7533783604346184410
@@ -2675,8 +2675,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 8207746589756544733, guid: fa75c817599f2a14aa05445d34a03e0f, type: 3}
-  spawnTime: 1
-  spawnRepeatRate: 5
+  spawnTime: 2
+  spawnRepeatRate: 6
   limit: 5
   arena: {fileID: 2021646376}
 --- !u!114 &7533783604346184411
@@ -2692,8 +2692,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 8808118665703677272, guid: 0b5eec3336bd463408463d7fb8dda49c, type: 3}
-  spawnTime: 1
-  spawnRepeatRate: 5
+  spawnTime: 6
+  spawnRepeatRate: 8
   limit: 5
   arena: {fileID: 2021646376}
 --- !u!114 &7533783604346184412
@@ -2711,7 +2711,7 @@ MonoBehaviour:
   objectToSpawn: {fileID: 9174410322917657064, guid: 9565e4a6a45aa784382c2c5ea8d307bb, type: 3}
   spawnTime: 1
   spawnRepeatRate: 5
-  limit: 15
+  limit: 30
   arena: {fileID: 2021646376}
 --- !u!1001 &8804921734971602382
 PrefabInstance:

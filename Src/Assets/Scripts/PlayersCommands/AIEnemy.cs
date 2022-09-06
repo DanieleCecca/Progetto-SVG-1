@@ -16,6 +16,10 @@ public class AIEnemy : MonoBehaviour
 
     [SerializeField]
     private int maxBullet = 10;
+    
+    //audio
+    [SerializeField]
+    private AudioSource carEngine;
 
     //movimento
     [SerializeField]
@@ -49,7 +53,10 @@ public class AIEnemy : MonoBehaviour
     {
         rotation = newRotation;
     }
-
+    public AudioSource getAudioCarEngine()
+    {
+        return carEngine;
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -63,7 +70,18 @@ public class AIEnemy : MonoBehaviour
 
     void Update()
     {
+        if (GameManager.instance.GetComponent<PauseGameplay>().isPaused == true)
+        {
+            carEngine.Pause();
+        }
+        else
+        {
+            if (!carEngine.isPlaying)
+            {
+                carEngine.Play();
+            }
 
+        }
     }
 
     void FixedUpdate()
@@ -98,11 +116,12 @@ public class AIEnemy : MonoBehaviour
         dashEffect.SetActive(false);
         setSpeed(initialSpeed);
         Debug.Log("Dash resettato");
-
+        carEngine.pitch = 1;
     }
     public void DashFunction()
     {
         dashEffect.SetActive(true);
+        carEngine.pitch = 1.3f;
         setSpeed(initialSpeed * 2);
         Debug.Log("Dash partito");
         Invoke("ResetSpeed", time);

@@ -1188,6 +1188,10 @@ PrefabInstance:
       propertyPath: deathEffect
       value: 
       objectReference: {fileID: 1763152032527406, guid: 6fe6b7e23778dd54f9c1745fe241766f, type: 3}
+    - target: {fileID: 2874581439062842439, guid: a80836d0f7997c141a6f9864c6204895, type: 3}
+      propertyPath: healingEffect
+      value: 
+      objectReference: {fileID: 105942, guid: a44494ca59f231641be173747f11ac58, type: 3}
     - target: {fileID: 2874581439062842456, guid: a80836d0f7997c141a6f9864c6204895, type: 3}
       propertyPath: dashButton
       value: 
@@ -1206,6 +1210,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2874581439196228857, guid: a80836d0f7997c141a6f9864c6204895, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6199188901200159198, guid: a80836d0f7997c141a6f9864c6204895, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6811272877854612793, guid: a80836d0f7997c141a6f9864c6204895, type: 3}
@@ -2415,7 +2423,7 @@ MonoBehaviour:
   objectToSpawn: {fileID: 9174410322917657064, guid: 9565e4a6a45aa784382c2c5ea8d307bb, type: 3}
   spawnTime: 1
   spawnRepeatRate: 5
-  limit: 10
+  limit: 20
   arena: {fileID: 2021646376}
 --- !u!1001 &8804921734971602382
 PrefabInstance:

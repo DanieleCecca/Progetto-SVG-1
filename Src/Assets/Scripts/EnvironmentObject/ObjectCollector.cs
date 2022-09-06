@@ -156,6 +156,8 @@ public class ObjectCollector : MonoBehaviour
         collisionbullet.boostBulletDamage(newDamage);
         activated = false;
         btn.gameObject.SetActive(false);
+        
+
     }
 
     void incrementHealth()

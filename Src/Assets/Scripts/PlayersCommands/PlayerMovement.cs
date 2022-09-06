@@ -51,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
     } 
     */
 
+    //movimento
     [SerializeField]
     private float speedVertical = 10f;
     [SerializeField]
@@ -62,6 +63,8 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField]
     private float thrust = 70f;
+    
+    //audio
     [SerializeField]
     private AudioSource audioCarEngine;
 

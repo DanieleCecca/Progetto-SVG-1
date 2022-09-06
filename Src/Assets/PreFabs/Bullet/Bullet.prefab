@@ -171,6 +171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  boostDmgEffect: {fileID: 116678, guid: d232ff6bbc61cfa46919e5e9ae91da7b, type: 3}
 --- !u!1001 &4302977969366423699
 PrefabInstance:
   m_ObjectHideFlags: 0
