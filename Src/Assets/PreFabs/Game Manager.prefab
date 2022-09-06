@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7533783603342789726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7533783603342789724}
+  - component: {fileID: 7533783603342789727}
+  - component: {fileID: 1103610567966647547}
+  - component: {fileID: 276195590543214299}
+  - component: {fileID: 430553908369765513}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7533783603342789724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7533783603342789726}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7533783603342789727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7533783603342789726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b12cd23ffd742ed4087ed4790cd68d17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VictoryEndGameUI: {fileID: 4451320022443835403, guid: a67a7a7fe5a52fb4cb04f171e1c28598, type: 3}
+  DefeatEndGameUI: {fileID: 6812800479206976867, guid: fa99d64a964d4ee4788aae93eedc19fb, type: 3}
+  attesa: 10
+  characterPrefabs:
+  - {fileID: 7273021549724439430, guid: 0035794a1a1f80c4284883059c98eb05, type: 3}
+  - {fileID: 6539278367277084408, guid: 331dd0cf672f09e4b8af52141fb4fb7c, type: 3}
+  - {fileID: 2268507290084707208, guid: a80836d0f7997c141a6f9864c6204895, type: 3}
+  - {fileID: 746997398701306547, guid: 1373189959a1b11448d9d4e9f3a9551c, type: 3}
+  playerPrefab: {fileID: 0}
+  enemyPrefab: {fileID: 5354313171792842394, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
+  coinPrefab: {fileID: 9174410322917657064, guid: 9565e4a6a45aa784382c2c5ea8d307bb, type: 3}
+  healthPrefab: {fileID: 8207746589756544733, guid: fa75c817599f2a14aa05445d34a03e0f, type: 3}
+  shieldPrefab: {fileID: 7471038332504671938, guid: 542b5c6f861c9774ab6f3ee16517364e, type: 3}
+  powerPrefab: {fileID: 8808118665703677272, guid: 0b5eec3336bd463408463d7fb8dda49c, type: 3}
+  endGame: 0
+--- !u!114 &1103610567966647547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7533783603342789726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96290ee087ac4884aa234948b269ad43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeRemaining: 10
+  timerIsRunning: 0
+  timeText: {fileID: 0}
+  coinCounter: {fileID: 0}
+  coinCounterEnemy: {fileID: 0}
+--- !u!114 &276195590543214299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7533783603342789726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fa42fb6d231514f8d559cf2d85d2dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberPlayers: 0
+  playersMax: 4
+  playersText: {fileID: 0}
+--- !u!114 &430553908369765513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7533783603342789726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b470d4894fe9ed4699bade7442b35db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasTutorial: {fileID: 0}
