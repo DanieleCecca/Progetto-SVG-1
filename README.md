@@ -48,7 +48,7 @@ Per eseguire la demo utilizzando Unity occorre clonare la repository sul proprio
 
 ## Documentazione
 ### Game Design Document
-Link per il documento completo: [clicca qui]("doc/GDD - Game Design Document.pdf")
+Link per il documento completo: [clicca qui](https://github.com/Ferru2000/Progetto-SVG/blob/main/doc/GDD%20-%20Game%20Design%20Document.pdf)
 
 Viene riportato un riassunto di alcune sezioni del GDD
 
