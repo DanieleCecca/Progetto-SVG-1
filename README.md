@@ -48,12 +48,12 @@ Per eseguire la demo utilizzando Unity occorre clonare la repository sul proprio
 
 ## Documentazione
 ### Game Design Document
-Link per il documento completo: [clicca qui](link gdd)
+Link per il documento completo: [clicca qui](doc/GDD - Game Design Document.pdf)
 
 Viene riportato un riassunto di alcune sezioni del GDD
 
 ## Segnalazione bug e miglioramenti
-Nel caso in cui dovesse essere presente un bug o una proposta per migliorare il progetto, è possibile creare una nuova [Issue](link repo) in questa repository.
+Nel caso in cui dovesse essere presente un bug o una proposta per migliorare il progetto, è possibile creare una nuova [Issue]((https://github.com/Ferru2000/Progetto-SVG/issues/new)) in questa repository.
 
 # Manutenzione
 La manutenzione del progetto è attualmente supportata dagli stessi autori.
