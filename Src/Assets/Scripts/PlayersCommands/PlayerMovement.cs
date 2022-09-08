@@ -94,9 +94,9 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        //rotation = TouchMovement();
+        rotation = TouchMovement();
         // comandi touch sono stati commentati per poter provare il gioco da pc
-        horizontal = Input.GetAxis("Horizontal") * (rotationSpeed / 4) * Time.fixedDeltaTime;
+        //horizontal = Input.GetAxis("Horizontal") * (rotationSpeed / 4) * Time.fixedDeltaTime;
         //ferma l'audio di gioco a fine game;
         if (GameManager.instance.GetComponent<PauseGameplay>().isPaused == true)
         {
@@ -115,13 +115,13 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         rb.MovePosition(rb.position + transform.forward * speedVertical * Time.fixedDeltaTime);
-        //Vector3 yRotation = Vector3.up * rotation * rotationSpeed * Time.fixedDeltaTime;
-        Vector3 yRotation = Vector3.up * horizontal * rotationSpeed * Time.fixedDeltaTime; // comandi da pc
+        Vector3 yRotation = Vector3.up * rotation * rotationSpeed * Time.fixedDeltaTime;
+        //Vector3 yRotation = Vector3.up * horizontal * rotationSpeed * Time.fixedDeltaTime; // comandi da pc
         Quaternion deltaRotation = Quaternion.Euler(yRotation);
         Quaternion targetRotation = rb.rotation * deltaRotation;
         rb.MoveRotation(Quaternion.Slerp(rb.rotation, targetRotation, 50f * Time.deltaTime));
-        //transform.Rotate(0f, rotation * rotationSpeed * Time.fixedDeltaTime, 0f, Space.Self);
-        transform.Rotate(0f, horizontal * rotationSpeed * Time.fixedDeltaTime, 0f, Space.Self); // comandi da pc
+        transform.Rotate(0f, rotation * rotationSpeed * Time.fixedDeltaTime, 0f, Space.Self);
+        //transform.Rotate(0f, horizontal * rotationSpeed * Time.fixedDeltaTime, 0f, Space.Self); // comandi da pc
     }
 
     private int TouchMovement()
@@ -130,11 +130,11 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.touchCount > 0)
         {
-            if (Input.GetTouch(0).position.x > Screen.width / 2 && Input.GetTouch(0).position.y > Screen.height)
+            if (Input.GetTouch(0).position.x > Screen.width / 2 && Input.GetTouch(0).position.y > Screen.height/4)
             {
                 rotation = 1;
             }
-            if (Input.GetTouch(0).position.x < Screen.width / 2 && Input.GetTouch(0).position.y > Screen.height)
+            if (Input.GetTouch(0).position.x < Screen.width / 2 && Input.GetTouch(0).position.y > Screen.height/4)
             {
                 rotation = -1;
             }
@@ -144,7 +144,7 @@ public class PlayerMovement : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         //Vector3 bumpVector = rb.transform.;
-        if (collision.gameObject.name == "Enemy 1")
+        if (collision.gameObject.tag == "enemy")
         {
             rb.AddForce(-transform.localPosition.x * thrust, 0, -transform.localPosition.z * thrust, ForceMode.Impulse);
         }

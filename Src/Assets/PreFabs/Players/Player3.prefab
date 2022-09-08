@@ -180,6 +180,7 @@ MonoBehaviour:
   isAlive: 1
   isShield: 0
   deathEffect: {fileID: 0}
+  healingEffect: {fileID: 0}
 --- !u!114 &2874581439062842438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,6 +234,7 @@ MonoBehaviour:
   btn: {fileID: 0}
   coinSound: {fileID: 0}
   powerupSound: {fileID: 0}
+  boostDmg: {fileID: 0}
 --- !u!114 &2874581439062842435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1534,6 +1536,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 403218, guid: d232ff6bbc61cfa46919e5e9ae91da7b, type: 3}
   m_PrefabInstance: {fileID: 6199188901200242200}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6199188901200159198 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 116678, guid: d232ff6bbc61cfa46919e5e9ae91da7b, type: 3}
+  m_PrefabInstance: {fileID: 6199188901200242200}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4547492615048679073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6199188901200159198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347ada9485d07b446b9bffe0a413d707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boostDmg: {fileID: 6199188901200159198}
+  player: {fileID: 2268507290084707208}
 --- !u!1001 &7008614668536368892
 PrefabInstance:
   m_ObjectHideFlags: 0

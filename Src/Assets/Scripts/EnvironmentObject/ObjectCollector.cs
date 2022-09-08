@@ -18,6 +18,8 @@ public class ObjectCollector : MonoBehaviour
     [SerializeField]
     private AudioClip coinSound, powerupSound;
     private bool activated = false;
+    [SerializeField]
+    private BoostDmg boostDmg;
 
 
     //non si può utlizzare questa funzione poichè in quetso caso con la funzione trigger bisogna attivare is trigger
@@ -91,6 +93,8 @@ public class ObjectCollector : MonoBehaviour
                 }
 
                 btn.gameObject.SetActive(true);
+
+                btn.onClick.RemoveAllListeners();
                 btn.onClick.AddListener(ActiveShield);
                 
 
@@ -118,6 +122,7 @@ public class ObjectCollector : MonoBehaviour
 
                 btn.gameObject.SetActive(true);
 
+                btn.onClick.RemoveAllListeners();
                 btn.onClick.AddListener(incrementHealth);
 
             }
@@ -144,6 +149,7 @@ public class ObjectCollector : MonoBehaviour
 
                 btn.gameObject.SetActive(true);
 
+                btn.onClick.RemoveAllListeners();
                 btn.onClick.AddListener(boostBulletDamage);
 
             }
@@ -152,12 +158,21 @@ public class ObjectCollector : MonoBehaviour
 
     void boostBulletDamage()
     {
+        boostDmg.ActiveBoost();
         int newDamage = 33;
         collisionbullet.boostBulletDamage(newDamage);
         activated = false;
-        btn.gameObject.SetActive(false);
         
+        btn.gameObject.SetActive(false);
+        Invoke("DisableBoost", CollisionBullet.time);
 
+
+    }
+
+    //bisogna creare per forza questa funzione per usare invoke
+    void DisableBoost()
+    {
+        boostDmg.DisableBoost();
     }
 
     void incrementHealth()

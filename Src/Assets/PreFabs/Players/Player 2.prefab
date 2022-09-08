@@ -330,6 +330,7 @@ MonoBehaviour:
   btn: {fileID: 0}
   coinSound: {fileID: 0}
   powerupSound: {fileID: 0}
+  boostDmg: {fileID: 0}
 --- !u!114 &6772072640248086473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1601,3 +1602,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 403218, guid: d232ff6bbc61cfa46919e5e9ae91da7b, type: 3}
   m_PrefabInstance: {fileID: 9020050732389697564}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &9020050732389683162 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 116678, guid: d232ff6bbc61cfa46919e5e9ae91da7b, type: 3}
+  m_PrefabInstance: {fileID: 9020050732389697564}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3607450771974592775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9020050732389683162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347ada9485d07b446b9bffe0a413d707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boostDmg: {fileID: 9020050732389683162}
+  player: {fileID: 6539278367277084408}

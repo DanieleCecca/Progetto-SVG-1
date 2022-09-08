@@ -28,7 +28,7 @@ public class EnemyCollisionDash : MonoBehaviour
         if (enemy.GetComponent<AIEnemy>().getSpeed() > initialSpeed)
         {
             //caso in cui venga colpito il player 
-            if (collision.gameObject.name == "Player 1")//this.GetComponent<GameObject>()
+            if (collision.gameObject.tag == "player")//this.GetComponent<GameObject>()
             {
 
                 PlayerHealth playerLife = collision.gameObject.GetComponent<PlayerHealth>();
@@ -72,9 +72,9 @@ public class EnemyCollisionDash : MonoBehaviour
                 }
 
                 coinCounterEnemy = collision.gameObject.GetComponent<CoinCounterEnemy>();
-                if (coinCounter.numberCoin > 0)
+                if (coinCounterEnemy.numberCoin > 0)
                 {
-                    coinCounterEnemy.loseCoinOnDash(coinCounter.numberCoin / 2, collision.gameObject);//cosi perderà sempre la meta delle monete che ha
+                    coinCounterEnemy.loseCoinOnDash(coinCounterEnemy.numberCoin / 2, collision.gameObject);//cosi perderà sempre la meta delle monete che ha
                 }
             }
             else

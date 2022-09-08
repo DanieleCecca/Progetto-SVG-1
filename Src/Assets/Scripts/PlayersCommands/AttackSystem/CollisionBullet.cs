@@ -6,10 +6,9 @@ public class CollisionBullet : MonoBehaviour
 {
     private int bulletDamage = 10;
     int initialbulletDamage;
-    private float time = 5f;
+    public static float time = 5f;
     public GameObject player;//che sarà o il player o l'enemy
-    [SerializeField]
-    private GameObject boostDmgEffect;
+
 
 
     public int getBulletDamage()
@@ -63,7 +62,6 @@ public class CollisionBullet : MonoBehaviour
 
     public void boostBulletDamage(int newDamage)
     {
-        boostDmgEffect.SetActive(true);
         setBulletDamage(newDamage);
         Debug.Log("Danno aumentato: " + newDamage);
         Invoke("ResetBoost", time);
@@ -71,7 +69,6 @@ public class CollisionBullet : MonoBehaviour
 
     public void ResetBoost()
     {
-        boostDmgEffect.SetActive(false);
         setBulletDamage(initialbulletDamage);
         Debug.Log("Boost damage resettato");
     }

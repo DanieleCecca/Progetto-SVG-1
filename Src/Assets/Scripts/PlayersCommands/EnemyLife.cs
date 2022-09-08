@@ -46,8 +46,15 @@ public class EnemyLife : MonoBehaviour
         if (currentHealth < maxHealth && currentHealth > 0)
         {
             //forse va distrutto dopo che viene istanziato l'effetto
+           
+            currentHealth = currentHealth + health;
+            if (currentHealth > maxHealth)
+            {
+                currentHealth = maxHealth;
+            }
+            Debug.Log("curato nemico" + currentHealth);
+            healthBar.SetHealth(currentHealth);
             Instantiate(healingEffect, gameObject.transform.localPosition, Quaternion.identity);
-            currentHealth += health - ((currentHealth + health) % maxHealth);
         }
     }
 

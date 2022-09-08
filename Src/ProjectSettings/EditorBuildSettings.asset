@@ -8,15 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Home.unity
     guid: 13a9406e1688aab418978a170fbfa306
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Scenes/Arena1.unity
-    guid: 86523f3a7e3aa6a42926e976141bdeed
-  - enabled: 1
-    path: Assets/Scenes/Arena0.unity
-    guid: 97a8368e8164a8a49ab3db6279bda055
   - enabled: 1
     path: Assets/Scenes/Garage.unity
     guid: 31e8dcc28b508e94db4ae4036bf185ca
@@ -24,24 +15,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Shop.unity
     guid: 8833d7cf1b50b0a44b043437349114fd
   - enabled: 1
+    path: Assets/Scenes/Arena0.unity
+    guid: 97a8368e8164a8a49ab3db6279bda055
+  - enabled: 1
+    path: Assets/Scenes/Arena1.unity
+    guid: 86523f3a7e3aa6a42926e976141bdeed
+  - enabled: 1
     path: Assets/Scenes/Arena2.unity
     guid: e9586e3e97bd37143a2cf5fc05e280ed
   - enabled: 1
     path: Assets/Scenes/Arena3.unity
     guid: 9b36d83319b21f64c9a981ede6cf966d
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   m_configObjects: {}

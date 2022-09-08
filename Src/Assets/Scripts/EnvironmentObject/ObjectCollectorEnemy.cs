@@ -12,7 +12,8 @@ public class ObjectCollectorEnemy : MonoBehaviour
     private EnemyLife enemyLife;
     [SerializeField]
     private EnemyCollisonBullet enemyCollisionbullet;
-
+    [SerializeField]
+    private BoostDmg boostDmg;
 
 
     //non si può utlizzare questa funzione poichè in quetso caso con la funzione trigger bisogna attivare is trigger
@@ -75,10 +76,20 @@ public class ObjectCollectorEnemy : MonoBehaviour
     }
     void boostBulletDamage()
     {
+        boostDmg.ActiveBoost();
         int newDamage = 33;
         enemyCollisionbullet.boostBulletDamage(newDamage);
+        Invoke("DisableBoost", EnemyCollisonBullet.time);
+
 
     }
+
+    //bisogna creare per forza questa funzione per usare invoke
+    void DisableBoost()
+    {
+        boostDmg.DisableBoost();
+    }
+
 
     void incrementHealth()
     {

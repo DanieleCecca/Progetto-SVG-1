@@ -458,6 +458,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1697787509}
     - target: {fileID: 2146575986925570395, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
+      propertyPath: boostDmg
+      value: 
+      objectReference: {fileID: 556772622}
+    - target: {fileID: 2146575986925570395, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
       propertyPath: enemyCollisionbullet
       value: 
       objectReference: {fileID: 7231757586167814965, guid: b2c0a35f02faa03469b1f6c34739dbb0, type: 3}
@@ -524,7 +528,7 @@ PrefabInstance:
     - target: {fileID: 6400983389195048726, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
       propertyPath: dashEffect
       value: 
-      objectReference: {fileID: 1356209367432166, guid: 57794cd48c93259469390b3a07640f49, type: 3}
+      objectReference: {fileID: 556772621}
     - target: {fileID: 6400983389195048744, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
       propertyPath: coinCounter
       value: 
@@ -572,6 +576,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71a2d108d6f9bc74e97dca4a6e140aa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &556772621 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6531875113451396676, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
+  m_PrefabInstance: {fileID: 556772619}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &556772622 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8404316349761069558, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
+  m_PrefabInstance: {fileID: 556772619}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347ada9485d07b446b9bffe0a413d707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &705507993
@@ -1153,6 +1173,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2672877160831547161}
     - target: {fileID: 2874581439062842436, guid: a80836d0f7997c141a6f9864c6204895, type: 3}
+      propertyPath: boostDmg
+      value: 
+      objectReference: {fileID: 1157627083}
+    - target: {fileID: 2874581439062842436, guid: a80836d0f7997c141a6f9864c6204895, type: 3}
       propertyPath: coinSound
       value: 
       objectReference: {fileID: 8300000, guid: fcad7d2908b3dbf4caf9c998c47b6b1f, type: 3}
@@ -1254,6 +1278,17 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 6811272877854612793, guid: a80836d0f7997c141a6f9864c6204895, type: 3}
   m_PrefabInstance: {fileID: 1157627080}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1157627083 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4547492615048679073, guid: a80836d0f7997c141a6f9864c6204895, type: 3}
+  m_PrefabInstance: {fileID: 1157627080}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347ada9485d07b446b9bffe0a413d707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1157627092 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1548695289390542935, guid: a80836d0f7997c141a6f9864c6204895, type: 3}
@@ -1395,6 +1430,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1110424727}
     - target: {fileID: 2146575986925570395, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
+      propertyPath: boostDmg
+      value: 
+      objectReference: {fileID: 1309143015}
+    - target: {fileID: 2146575986925570395, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
       propertyPath: enemyCollisionbullet
       value: 
       objectReference: {fileID: 7231757586167814965, guid: b2c0a35f02faa03469b1f6c34739dbb0, type: 3}
@@ -1457,7 +1496,7 @@ PrefabInstance:
     - target: {fileID: 6400983389195048726, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
       propertyPath: dashEffect
       value: 
-      objectReference: {fileID: 1356209367432166, guid: 57794cd48c93259469390b3a07640f49, type: 3}
+      objectReference: {fileID: 1309143016}
     - target: {fileID: 6400983389195048744, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
       propertyPath: coinCounter
       value: 
@@ -1484,6 +1523,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
+--- !u!114 &1309143015 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8404316349761069558, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
+  m_PrefabInstance: {fileID: 1309143014}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347ada9485d07b446b9bffe0a413d707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1309143016 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6531875113451396676, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
+  m_PrefabInstance: {fileID: 1309143014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1509746707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2161,6 +2216,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2672877160927833350, guid: aa3f53517834385468d0cd66675a8012, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3f53517834385468d0cd66675a8012, type: 3}
 --- !u!114 &2672877160831547161 stripped
@@ -2506,7 +2565,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8804921733753762931, guid: 45b6d7ef7fb27b14ca1d8d2ea637f6f1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -238
+      value: -200
       objectReference: {fileID: 0}
     - target: {fileID: 8804921733753762931, guid: 45b6d7ef7fb27b14ca1d8d2ea637f6f1, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2614,7 +2673,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5142091749104693471, guid: 43041f89d7d8fe34194205e7eebd1aca, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1694
+      value: 1746
       objectReference: {fileID: 0}
     - target: {fileID: 5142091749104693471, guid: 43041f89d7d8fe34194205e7eebd1aca, type: 3}
       propertyPath: m_AnchoredPosition.y

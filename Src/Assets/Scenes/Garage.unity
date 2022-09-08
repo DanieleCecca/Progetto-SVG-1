@@ -14334,6 +14334,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7875988478980396690, guid: 0035794a1a1f80c4284883059c98eb05, type: 3}
+      propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7875988478980396690, guid: 0035794a1a1f80c4284883059c98eb05, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7992692957415581785, guid: 0035794a1a1f80c4284883059c98eb05, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -15256,6 +15264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SettingsUI: {fileID: 1728201799}
+  canvasTutorial: {fileID: 0}
 --- !u!114 &1728201802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17961,6 +17970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SettingsUI: {fileID: 570769458}
+  canvasTutorial: {fileID: 0}
 --- !u!114 &1909894773
 MonoBehaviour:
   m_ObjectHideFlags: 0

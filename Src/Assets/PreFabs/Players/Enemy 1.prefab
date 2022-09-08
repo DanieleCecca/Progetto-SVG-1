@@ -957,6 +957,7 @@ MonoBehaviour:
   shield: {fileID: 0}
   enemyLife: {fileID: 2021335107118739146}
   enemyCollisionbullet: {fileID: 0}
+  boostDmg: {fileID: 0}
 --- !u!82 &7983925284119198032
 AudioSource:
   m_ObjectHideFlags: 0
