@@ -29,6 +29,7 @@ Attualmente è disponibile solo una demo del progetto scaricabile nella seguente
   - [Come installare](#come-installare)
   - [Documentazione](#documentazione)
   - [Game Design Document](#game-design-document)
+- [Struttura del progetto](#struttura-del-progetto)
   - [Segnalazione bug e miglioramenti](#segnalazione-bug-e-miglioramenti)
 - [Manutenzione](#manutenzione)
 - [Licenza](#licenza)
@@ -51,6 +52,35 @@ Per eseguire la demo utilizzando Unity occorre clonare la repository sul proprio
 Link per il documento completo: [clicca qui](https://github.com/Ferru2000/Progetto-SVG/blob/main/doc/GDD%20-%20Game%20Design%20Document.pdf)
 
 Viene riportato un riassunto di alcune sezioni del GDD
+
+# Struttura del progetto
+
+```
+|-- Assets
+|   |-- UI
+|   |   |-- Epic Toon FX
+|   |   |-- GUI PRO Kit - Simple Casual
+|   |   |-- TextMesh Pro
+|   |   |-- Toon Vehicles
+|   |   |-- Textures
+|   |-- Img
+|   |-- Materials
+|   |   |-- Planet Materials
+|   |   |-- Skybox Materials
+|   |-- PreFabs
+|   |   |-- Bullet
+|   |   |-- Object
+|   |   |-- Players
+|   |   |-- Rocket
+|   |   |-- VFX
+|   |-- Scenes
+|   |-- Scripts
+|   |-- Sounds
+|   |   |-- Engines
+|   |   |-- Soundtracks
+|   |   |-- Others
+|   |-- Sprites
+```
 
 ## Segnalazione bug e miglioramenti
 Nel caso in cui dovesse essere presente un bug o una proposta per migliorare il progetto, è possibile creare una nuova [Issue]((https://github.com/Ferru2000/Progetto-SVG/issues/new)) in questa repository.
