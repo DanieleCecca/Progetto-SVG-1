@@ -55,6 +55,8 @@ Viene riportato un riassunto di alcune sezioni del GDD
 
 # Struttura del progetto
 
+La struttura del progetto segue lo standard dei progetti realizzati in Unity. Qui sotto viene riportato come è organizzata la cartella Assets:
+
 ```
 |-- Assets
 |   |-- UI
