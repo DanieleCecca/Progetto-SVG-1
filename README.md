@@ -1,23 +1,27 @@
 <!-- aggiungere badge -->
 [![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=flat&logo=unity)](https://unity3d.com)
 
-![image](logo gioco)
+<center><img src = "./res/img/gamelogo.PNG" alt = "home"></center>
+
 
 # Annunci / Status del progetto
 > Status demo: completa
 
-Attualmente è disponibile solo una demo del progetto scaricabile nella seguente [sezione](https://github.com/t-perniola/SVG-Project/releases) della repository.
+Attualmente è disponibile solo una demo del progetto scaricabile nella seguente [sezione](sezione release inserire link) della repository.
 
 # SVG-Project
 
 ## Immagini
-![image](home)
-
-![image](garage)
-
-![image](shop)
-
-![image](arena0)
+<img src = "./res/img/home.PNG" alt = "home">
+<br>
+<br>
+<img src = "./res/img/garage.PNG" alt = "garage">
+<br>
+<br>
+<img src = "./res/img/shop.PNG" alt = "shop">
+<br>
+<br>
+<img src = "./res/img/arena0.PNG" alt = "arena 0">
 
 # Indice
 
@@ -62,5 +66,8 @@ La manutenzione del progetto è attualmente supportata dagli stessi autori.
 - Francesco Ferrulli ([GitHub](https://github.com/Ferru2000))
 - Michele Fraccalvieri ([GitHub](https://github.com/Citrone16))
 
+<center><img src = "./res/img/logoCompany.PNG" alt = "homcompanye"></center>
+
+<br>
 ## Licenze software dei componenti di terze parti
 Il progetto è stato realizzato con licenza software [Unity Personal](https://store.unity.com/products/unity-personal).
