@@ -12,16 +12,16 @@ Attualmente è disponibile solo una demo del progetto scaricabile nella seguente
 # SVG-Project
 
 ## Immagini
-<img src = "./res/img/home.PNG" alt = "home">
+<img src = "res/img/home.png" alt = "home">
 <br>
 <br>
-<img src = "./res/img/garage.PNG" alt = "garage">
+<img src = "res/img/garage.png" alt = "garage">
 <br>
 <br>
-<img src = "./res/img/shop.PNG" alt = "shop">
+<img src = "res/img/shop.png" alt = "shop">
 <br>
 <br>
-<img src = "./res/img/arena0.PNG" alt = "arena 0">
+<img src = "res/img/arena0.png" alt = "arena 0">
 
 # Indice
 
@@ -62,11 +62,11 @@ La manutenzione del progetto è attualmente supportata dagli stessi autori.
 
 ## Autori
 - Daniele Cecca ([GitHub](https://github.com/DanieleCecca))
-- Marco Lillo ([GitHub](https://github.com/MarcoLillix))
+- Marco Lillo ([GitHub](https://github.com/MarcoLillx))
 - Francesco Ferrulli ([GitHub](https://github.com/Ferru2000))
 - Michele Fraccalvieri ([GitHub](https://github.com/Citrone16))
 
-<center><img src = "./res/img/logoCompany.PNG" alt = "homcompanye"></center>
+<center><img src = "res/img/logoCompany.png" alt = "company Logo"></center>
 
 <br>
 ## Licenze software dei componenti di terze parti
