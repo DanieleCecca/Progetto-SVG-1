@@ -230,11 +230,11 @@ MonoBehaviour:
   coinCounter: {fileID: 2874581439062842437}
   shield: {fileID: 2874581438797065169}
   playerhealth: {fileID: 2874581439062842439}
-  collisionbullet: {fileID: 0}
+  collisionbullet: {fileID: -2618945059886532326, guid: af3ebd5055a099f4db670bd7902656f5, type: 3}
   btn: {fileID: 0}
-  coinSound: {fileID: 0}
-  powerupSound: {fileID: 0}
-  boostDmg: {fileID: 0}
+  coinSound: {fileID: 8300000, guid: 69faf4553cdacd54d89296562db06699, type: 3}
+  powerupSound: {fileID: 8300000, guid: 2c49365bde67cea41aa4412021c5e125, type: 3}
+  boostDmg: {fileID: 4547492615048679073}
 --- !u!114 &2874581439062842435
 MonoBehaviour:
   m_ObjectHideFlags: 0

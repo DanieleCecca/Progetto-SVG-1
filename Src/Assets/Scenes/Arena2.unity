@@ -171,10 +171,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -528,10 +528,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -646,7 +646,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 588773613081672014, guid: 235873d67658b5d40b369121769513c6, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 190
+      value: 175.7
       objectReference: {fileID: 0}
     - target: {fileID: 588773613081672014, guid: 235873d67658b5d40b369121769513c6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -659,6 +659,14 @@ PrefabInstance:
     - target: {fileID: 588773613081672014, guid: 235873d67658b5d40b369121769513c6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 588773613782795088, guid: 235873d67658b5d40b369121769513c6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -219.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 588773613782795088, guid: 235873d67658b5d40b369121769513c6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -7.5804
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 235873d67658b5d40b369121769513c6, type: 3}
@@ -1697,10 +1705,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1859,22 +1867,6 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 2672877160831547161}
-    - target: {fileID: 6772072640248086472, guid: 331dd0cf672f09e4b8af52141fb4fb7c, type: 3}
-      propertyPath: boostDmg
-      value: 
-      objectReference: {fileID: 1646738790}
-    - target: {fileID: 6772072640248086472, guid: 331dd0cf672f09e4b8af52141fb4fb7c, type: 3}
-      propertyPath: coinSound
-      value: 
-      objectReference: {fileID: 8300000, guid: fcad7d2908b3dbf4caf9c998c47b6b1f, type: 3}
-    - target: {fileID: 6772072640248086472, guid: 331dd0cf672f09e4b8af52141fb4fb7c, type: 3}
-      propertyPath: powerupSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 74ea4a2ad98acb241bdb9753be6cd8c4, type: 3}
-    - target: {fileID: 6772072640248086472, guid: 331dd0cf672f09e4b8af52141fb4fb7c, type: 3}
-      propertyPath: collisionbullet
-      value: 
-      objectReference: {fileID: -2618945059886532326, guid: af3ebd5055a099f4db670bd7902656f5, type: 3}
     - target: {fileID: 6772072640248086473, guid: 331dd0cf672f09e4b8af52141fb4fb7c, type: 3}
       propertyPath: thrust
       value: 5
@@ -2061,17 +2053,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1646738790 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3607450771974592775, guid: 331dd0cf672f09e4b8af52141fb4fb7c, type: 3}
-  m_PrefabInstance: {fileID: 1568245724}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1181361877}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 347ada9485d07b446b9bffe0a413d707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1675170313 stripped
