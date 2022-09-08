@@ -69,5 +69,6 @@ La manutenzione del progetto è attualmente supportata dagli stessi autori.
 <center><img src = "res/img/logoCompany.png" alt = "company Logo"></center>
 
 <br>
+
 ## Licenze software dei componenti di terze parti
 Il progetto è stato realizzato con licenza software [Unity Personal](https://store.unity.com/products/unity-personal).
