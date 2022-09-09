@@ -7,7 +7,7 @@
 # Annunci / Status del progetto
 > Status demo: completa
 
-Attualmente è disponibile solo una demo del progetto scaricabile nella seguente [sezione](https://github.com/Ferru2000/Progetto-SVG/releases) della repository.
+Attualmente sono disponibili due demo (Android e Desktop) del progetto scaricabili nella seguente [sezione](https://github.com/Ferru2000/Progetto-SVG/releases) della repository.
 
 # SVG-Project
 
