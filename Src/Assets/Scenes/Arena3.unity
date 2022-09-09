@@ -705,7 +705,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &1023153215
 RectTransform:
@@ -1456,11 +1456,11 @@ PrefabInstance:
     - target: {fileID: 8404316349761069558, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1509675568}
+      objectReference: {fileID: 1675766859}
     - target: {fileID: 8404316349761069558, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
       propertyPath: boostDmg
       value: 
-      objectReference: {fileID: 1675766859}
+      objectReference: {fileID: 1509675568}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e12f0d7f56545c43b88add0a54d96df, type: 3}
 --- !u!114 &1675766856 stripped
@@ -2734,6 +2734,10 @@ PrefabInstance:
     - target: {fileID: 4451320022443835403, guid: a67a7a7fe5a52fb4cb04f171e1c28598, type: 3}
       propertyPath: m_Name
       value: PanelVictory
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451320022443835403, guid: a67a7a7fe5a52fb4cb04f171e1c28598, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8745924437674386377, guid: a67a7a7fe5a52fb4cb04f171e1c28598, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
