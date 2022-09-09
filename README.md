@@ -39,7 +39,9 @@ Attualmente è disponibile solo una demo del progetto scaricabile nella seguente
 # Come iniziare
 
 ## Come installare
-Per provare la demo basta scaricare il file .rar contenuto nella sezione Releases, decomprimerlo e avviare l'eseguibile.
+Per provare la demo versione mobile basta scaricare il file.apk contenuto nella sezione Releases, dal proprio dispositivo mobile.
+
+Per provare la demo versione dektop basta scaricare il file.rar contenuto nella sezione Releases, decomprimerlo e avviare l'eseguibile.
 
 Per eseguire la demo utilizzando Unity occorre clonare la repository sul proprio computer ed aprirla in locale.
 
