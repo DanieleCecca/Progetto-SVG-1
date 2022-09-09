@@ -47,7 +47,7 @@ Per eseguire la demo utilizzando Unity occorre clonare la repository sul proprio
 
 > **Nota**: la demo è stata realizzata con la versione 2021.3.3 di Unity
 
-
+**N.B. Per uscire dal gioco bisogna utilizzare il comando Alt-F4 o terminare il processo in quanto non è prevista la chiusura automatica del programma**
 
 ## Documentazione
 ### Game Design Document

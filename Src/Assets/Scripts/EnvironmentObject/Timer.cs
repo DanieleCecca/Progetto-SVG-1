@@ -74,7 +74,7 @@ public class Timer : MonoBehaviour
     {
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("enemy");
         int enemyCoins = findMax(enemies);
-        return (coinCounter.numberCoin > enemyCoins);
+        return (coinCounter.numberCoin >= enemyCoins);
 
     }
 

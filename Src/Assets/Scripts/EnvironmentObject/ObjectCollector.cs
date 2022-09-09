@@ -116,6 +116,7 @@ public class ObjectCollector : MonoBehaviour
                     if (image != buttonImage)
                     {
                         image.sprite = collisionInfo.collider.gameObject.GetComponent<Image>().sprite; ;
+                        image.color = new Color(255, 255, 255, 255);
                         break;
                     }
                 }
@@ -143,6 +144,7 @@ public class ObjectCollector : MonoBehaviour
                     if (image != buttonImage)
                     {
                         image.sprite = collisionInfo.collider.gameObject.GetComponent<Image>().sprite; ;
+                        image.color = new Color(255, 255, 255, 255);
                         break;
                     }
                 }

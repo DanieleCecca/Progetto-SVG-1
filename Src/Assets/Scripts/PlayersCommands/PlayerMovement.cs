@@ -94,9 +94,9 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        rotation = TouchMovement();
+        //rotation = TouchMovement();
         // comandi touch sono stati commentati per poter provare il gioco da pc
-        //horizontal = Input.GetAxis("Horizontal") * (rotationSpeed / 4) * Time.fixedDeltaTime;
+        horizontal = Input.GetAxis("Horizontal") * (rotationSpeed / 4) * Time.fixedDeltaTime;
         //ferma l'audio di gioco a fine game;
         if (GameManager.instance.GetComponent<PauseGameplay>().isPaused == true)
         {
@@ -115,13 +115,13 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         rb.MovePosition(rb.position + transform.forward * speedVertical * Time.fixedDeltaTime);
-        Vector3 yRotation = Vector3.up * rotation * rotationSpeed * Time.fixedDeltaTime;
-        //Vector3 yRotation = Vector3.up * horizontal * rotationSpeed * Time.fixedDeltaTime; // comandi da pc
+        //Vector3 yRotation = Vector3.up * rotation * rotationSpeed * Time.fixedDeltaTime;
+        Vector3 yRotation = Vector3.up * horizontal * rotationSpeed * Time.fixedDeltaTime; // comandi da pc
         Quaternion deltaRotation = Quaternion.Euler(yRotation);
         Quaternion targetRotation = rb.rotation * deltaRotation;
         rb.MoveRotation(Quaternion.Slerp(rb.rotation, targetRotation, 50f * Time.deltaTime));
-        transform.Rotate(0f, rotation * rotationSpeed * Time.fixedDeltaTime, 0f, Space.Self);
-        //transform.Rotate(0f, horizontal * rotationSpeed * Time.fixedDeltaTime, 0f, Space.Self); // comandi da pc
+        //transform.Rotate(0f, rotation * rotationSpeed * Time.fixedDeltaTime, 0f, Space.Self);
+        transform.Rotate(0f, horizontal * rotationSpeed * Time.fixedDeltaTime, 0f, Space.Self); // comandi da pc
     }
 
     private int TouchMovement()
