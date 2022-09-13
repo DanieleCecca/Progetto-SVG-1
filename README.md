@@ -1,7 +1,7 @@
 <!-- aggiungere badge -->
 [![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=flat&logo=unity)](https://unity3d.com)
 
-<center><img src = "res/img/gameLogo.png" alt = "logo"></center>
+<center><img src = "Src/Assets/img/gameLogo.png" alt = "logo"></center>
 
 
 # Annunci / Status del progetto
